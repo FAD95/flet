@@ -6,8 +6,9 @@ authors = ["FAD95 <feescorciam@protonmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
-python = "^3.7"
+python = ">=3.7,<3.12"
 flet = "^0.5.0"
+pyinstaller = "^5.9.0"
 
 [build-system]
 requires = ["poetry-core"]
